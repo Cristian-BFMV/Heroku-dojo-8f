@@ -3,6 +3,8 @@
   <title>Prueba de PHP</title>
  </head>
  <body>
- <?php echo '<p>Hola Mundo</p>'; ?>
+ <?php
+echo '¡Hola ' . htmlspecialchars($_GET["nombre"]) . '!';
+?>
  </body>
 </html>
